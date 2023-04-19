@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+.container-1::-webkit-scrollbar {
+    display: none;
+  }
+
+
+nav {
+    display: flex;
+    padding: 15px;
+    position:fixed;
+    background-color: black;
+
+    width: max-content;
+}
+
+.logo {
+
+    height: 100px;
+}
+
+ul {
+    margin-right: auto;
+}
+
+nav ul li {
+    color: white;
+    font-size: 1.7em;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.item:hover
+{
+    color: rgb(205, 204, 204);
+}
+
+img{
+    padding: 2px;
+    cursor: pointer;
+    transition: 1.5sec;
+    border-radius: 7px;
+
+
+}
+
+.img:hover{
+    transform: scale(1.25);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+
+.fa-magnifying-glass {
+    
+   margin: 15px 20px 10px 5px ; 
+    padding: 15px;
+    
+   
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass:hover {
+    transform: scale(1.15);
+    /* z-index: 2; */
+
+}
+
+.profile-icon {
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 1px 10px 2px ; 
+
+
+}
+
+.right {
+
+    display: flex;
+    float: right;
+    margin: 30px  ;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .logo {
+
+        height: 50px;
+    }
+
+    nav ul li {
+        color: white;
+        font-size: 1.0em;
+        display: inline;
+        padding: 10px;
+        cursor: pointer;
+
+    }
+    .item:hover
+{
+    color: rgb(205, 204, 204);
+}
+
+
+    .right {
+        margin-top: 0px;
+        
+    }
+
+    .fa-magnifying-glass {
+        margin-top: 15px;
+        margin-right: 10px;
+       
+    }
+
+    .profile-icon {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+
+.container-1{
+display: flex;
+margin: 15px;
+
+align-items: center;
+    height: 300px;
+grid-auto-rows: auto;
+    overflow-x: auto;
+}
