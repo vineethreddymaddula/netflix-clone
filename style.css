@@ -5,7 +5,7 @@ margin: 0px;
     box-sizing:border-box;
 }
 body {
-    background-color: #141414;
+    background-color: black;
     
     color: white;
     
@@ -32,7 +32,12 @@ top: 0;
 }
 .heading{
 margin-top: 25px;
+    margin-inline-start: 40px;
 }
+h2{
+margin-inline-start: 40px;
+}
+
 
 .logo {
 
@@ -43,6 +48,7 @@ ul {
     margin-right: auto;
     width: 100%;
     margin-top: 20px;
+    padding-inline-start: 10px;
 
 }
 
