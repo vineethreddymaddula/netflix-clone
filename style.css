@@ -1,256 +1,299 @@
-
-
 * {
     margin: 0px;
-        box-sizing:border-box;
-    }
-    body {
-        background-color: black;
-        
-        color: white;
-        
-        
-        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    }
-    
-    body::-webkit-scrollbar {
-        display: none;
-      }
-    .container-1::-webkit-scrollbar {
-        display: none;
-      }
-    
-    
-    nav {
-        display:flex;
-        padding: 5px;
-       position: relative;
-    top: 0;
-        left:0;
-        background-color: rgba(0, 0, 0, 0.121);
-    
-        
-    }
-    .heading{
-        margin-top:0px;
-        margin-inline-start: 38px;
-       
-    
-    }
-    h2{
-    margin-inline-start: 40px;
-    }
-    
-    
-    .logo {
-    
-        height: 65px;
-    }
-    
-    ul {
-        margin-right: auto;
-        width: 100%;
-        margin-top: 15px;
-        padding-inline-start: 28px;
-    
-    }
-    
-    nav ul li {
-        color: white;
-        font-size: 17px;
-        display: inline-block;
-        padding: 5px;
-        cursor: pointer;
-    
-    }
-    
-    .item:hover
-    {
-        color: rgb(205, 204, 204);
-    }
-    
-    img{
-        padding: 1.5px;
-        cursor: pointer;
-        transition: all 1s;
-        border-radius: 7px;
-    
-    
-    }
-    
-    .img:hover{
-        transition: 500ms ;
-        border-radius: 5%;
-        transform: scale(1.15);
-       
-    
-    }
-    
-    button{
-        padding: 18px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        cursor: pointer;
-        font-weight: bolder;
-        font-size:large;
-        border-radius: 10px;
-        transition: 1s;
-        margin-top: 25px;
-        width: fit-content;
-        margin-right: 0px;
-        margin-left: 29px;
-        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-   
-    }
-    button:hover{
-        
-        background-color: rgba(255, 255, 255, 0.642);
-        color: rgb(40, 40, 40);
-        
-        
-    }
-
-    .info-button{
-        padding: 15px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size:large;
-        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-   cursor: pointer;
-        font-weight:700;
-        margin-left: 10px;
-        border-radius:10px;
-        transition: 1s;
-        margin-top: 25px;
-        width: fit-content;
-        background-color: rgba(255, 255, 255, 0.507);
-        color: rgba(255, 255, 255, 0.906);
-    
-    }
-
-    .info-button:hover{
-        
-        background-color: rgba(255, 255, 255, 0.123);
-        color: rgb(255, 255, 255);
-        
-        
-    }
-
-    .container-0{
-        background-image: url(https://occ-0-4486-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaScBLKEtaJlxcaJo74XVBPkFn8RhjJyjjMbuwfE4Q6ZPbcmuGNE6nkByFQcJgcyWqWJ3xetcT74PQI-KZ4ewhdfMQGunfP51l2q.jpg?r=89e);
-        background-size: 100% 68.7% ;
-        background-repeat: no-repeat;
-        position:relative ;
-        top: 0;
-      
-
-    }
-
-.mini-container{
-
-    /* margin-top:120px; */
-  
-    margin-inline-start: 50px;
-    margin-bottom:15px;
-    padding: 25px;
+    box-sizing: border-box;
 }
-    
-    .logo-1{
 
-    height: 250px;
-    width:30%;
+body {
+    background-color: black;
+
+    color: white;
+
+
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container-1::-webkit-scrollbar {
+    display: none;
+}
+
+
+nav {
+    display: flex;
+    padding: 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.121);
+
+
+}
+
+.heading {
+    margin-top: 30px;
+    margin-inline-start: 38px;
+
+
+}
+
+h2 {
+    margin-inline-start: 40px;
+}
+
+
+.logo {
+
+    height: 65px;
+}
+
+ul {
+    margin-right: auto;
+    width: 100%;
+    margin-top: 15px;
+    padding-inline-start: 28px;
+
+}
+
+nav ul li {
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.item:hover {
+    color: rgb(205, 204, 204);
+}
+
+img {
+    padding: 1.5px;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 7px;
+
+
+}
+
+.img:hover {
+    transition: 500ms;
+    border-radius: 5%;
+    transform: scale(1.15);
+
+
+}
+
+button {
+    padding: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 25px;
+    width: fit-content;
+    margin-right: 0px;
+    margin-left: 29px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+button:hover {
+
+    background-color: rgba(255, 255, 255, 0.642);
+    color: rgb(40, 40, 40);
+
+
+}
+
+.info-button {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
     margin-left: 10px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 25px;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.507);
+    color: rgba(0, 0, 0, 0.906);
+
+}
+
+.info-button:hover {
+
+    background-color: rgba(255, 255, 255, 0.123);
+    color: rgb(0, 0, 0);
+
+
+}
+
+.container-0 {
+    background-image: url(https://occ-0-2701-2186.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRLV0w4vHSytMQXMXrb92gtkijgPIdYLy3WNeMBxFO0gWhBPJI7qO6hy_kGdeqPQut0dxKTC7HUJMa3MG8DGL-PpEJR3FSRvQvy9.jpg?r=538);
+    background-size: 101% 70.6%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+
+
+}
+
+.mini-container {
+
+
+    margin-inline-start: -16px;
+    margin-bottom: 15px;
+    padding: 33px;
+}
+
+.logo-1 {
+
+    height: 200px;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 70px;
     transition: 1s;
     display: flex;
     align-items: center;
-    }
- 
-    
-    .fa-magnifying-glass {
-        
-       margin: 15px 20px 10px 5px ; 
-        padding: 15px;
-        
-       
-        transition: 0.2s;
-        cursor: pointer;
-    }
-    
-    .fa-magnifying-glass:hover {
-        transform: scale(1.15);
-        /* z-index: 2; */
-    
-    }
-    
-    .profile-icon {
-        align-items: center;
-        cursor: pointer;
-        margin: 3px 1px 5px 2px ; 
-    
-    
-    }
-    
-    .right {
-    
-        display: flex;
-        
-        margin: 5px;
-    }
-    
-    
-    .container-1{
+}
+
+
+.fa-magnifying-glass {
+
+    margin: 15px 20px 10px 5px;
+    padding: 15px;
+
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass:hover {
+    transform: scale(1.15);
+    /* z-index: 2; */
+
+}
+
+.profile-icon {
+    align-items: center;
+    cursor: pointer;
+    margin: 3px 1px 5px 2px;
+
+
+}
+
+.right {
+
+    display: flex;
+
+    margin: 5px;
+}
+
+
+.container-1 {
     display: flex;
     margin: 15px;
     margin-right: 0px;
-    
+
     padding: 20px;
     padding-right: 0px;
     align-items: center;
-      border-radius: 10%;
+    border-radius: 10%;
     grid-auto-rows: auto;
-        overflow-x:scroll;
-        overflow-y:hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+footer {
+
+    margin: 30px 30px 8px 30px;
+}
+
+.social-link {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 250ms;
+    border-radius: 5px;
+   
+
+
+}
+
+.social-link:hover {
+    transition: 500ms;
+    background-color: rgba(237, 234, 234, 0.763);
+    border-radius: 5px;
+    transform: scale(1.15);
+}
+#fb:hover{
+    background-color: #0800fa36;
+}
+#insta:hover{
+    background-color: #ff019536;
+}
+#twitter:hover{
+    background-color: #00abfa36;
+}
+#yt:hover{
+    background-color: #ff000036;
+}
+a{
+    text-decoration: none;
+}
+
+.copyright{
+  margin: 20px;
+margin-bottom: 2px;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .logo {
+
+        height: 50px;
     }
-  
-    @media screen and (max-width: 1100px) {
-    
-        .logo {
-    
-            height: 50px;
-        }
-    
-        nav ul li {
-            color: white;
-            font-size: 1.0em;
-            display: inline;
-            padding: 10px;
-            cursor: pointer;
-    
-        }
-        .item:hover
-    {
+
+    nav ul li {
+        color: white;
+        font-size: 1.0em;
+        display: inline;
+        padding: 10px;
+        cursor: pointer;
+
+    }
+
+    .item:hover {
         color: rgb(205, 204, 204);
     }
-    
-    
-        .right {
-            margin-top: 0px;
-            
-        }
-    
-        .fa-magnifying-glass {
-            margin-top: 15px;
-            margin-right: 10px;
-           
-        }
-    
-        .profile-icon {
-            margin-top: 10px;
-            margin-left: 10px;
-        }
-    
-    
-    
+
+
+    .right {
+        margin-top: 0px;
+
     }
-    
-    
+
+    .fa-magnifying-glass {
+        margin-top: 15px;
+        margin-right: 10px;
+
+    }
+
+    .profile-icon {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+
+
+}
